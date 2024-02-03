@@ -7,7 +7,7 @@ Run the command npm i for install node modules
 step -3
 Run the command npm start for start the project
 step -4 
-Login Applications using below crentials
+Login Applications using this crentials
 username: 'kminchelle'
 password: '0lelplR'
 
