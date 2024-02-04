@@ -1,16 +1,15 @@
 # Assignment_ProductCard
 
 Step - 1
-Clone the Repository
+Clone the repository.
 step -2 
-Run the command npm i for install node modules
+Run the command npm i to install the Node modules.
 step -3
-Run the command npm start for start the project
+Run the command npm start to start the project.
 step -4 
-Login Applications using below crentials
-username: 'kminchelle'
-password: '0lelplR'
-
-Check all the functionality.
+Login to the application using the following credentials:
+Username: 'kminchelle'
+Password: '0lelplR'
+Check all the functionalities.
 
 Thank you!
