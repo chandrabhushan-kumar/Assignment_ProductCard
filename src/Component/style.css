@@ -325,3 +325,6 @@ ul.pagination li.active a {
 .heading{
     text-align: center;
 }
+.errorcolor{
+    color: #ff0000;
+}

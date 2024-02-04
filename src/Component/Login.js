@@ -74,7 +74,7 @@ const LoginForm = () => {
       <div className='login_wrapper'>
         <Form>
           <Form.Group controlId="formUsername">
-            <Form.Label>Username</Form.Label>
+            <Form.Label>Username <span className="errorcolor">*</span></Form.Label>
             <Form.Control
               type="text"
               placeholder="Enter your username"
@@ -87,7 +87,7 @@ const LoginForm = () => {
           </Form.Group>
 
           <Form.Group controlId="formPassword">
-            <Form.Label>Password</Form.Label>
+            <Form.Label>Password <span className="errorcolor">*</span></Form.Label>
             <div className='passBx'>
               <Form.Control
                 type="password"

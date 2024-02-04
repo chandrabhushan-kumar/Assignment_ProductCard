@@ -107,7 +107,7 @@ const AddProductForm = () => {
             <div className='login_wrapper add_productWrapper'>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group controlId="formProductName">
-                        <Form.Label>Name</Form.Label>
+                        <Form.Label>Name <span className="errorcolor">*</span></Form.Label>
                         <Form.Control
                             type="text"
                             placeholder="Enter product name"
@@ -120,7 +120,7 @@ const AddProductForm = () => {
                     </Form.Group>
 
                     <Form.Group controlId="formProductDescription">
-                        <Form.Label>Description</Form.Label>
+                        <Form.Label>Description <span className="errorcolor">*</span></Form.Label>
                         <Form.Control
                             as="textarea"
                             placeholder="Enter product description"
@@ -133,7 +133,7 @@ const AddProductForm = () => {
                     </Form.Group>
 
                     <Form.Group controlId="formProductPrice">
-                        <Form.Label>Price</Form.Label>
+                        <Form.Label>Price <span className="errorcolor">*</span></Form.Label>
                         <Form.Control
                             type="text"
                             placeholder="Enter product price"
@@ -146,7 +146,7 @@ const AddProductForm = () => {
                     </Form.Group>
 
                     <Form.Group controlId="formProductQuantity">
-                        <Form.Label>Quantity</Form.Label>
+                        <Form.Label>Quantity <span className="errorcolor">*</span></Form.Label>
                         <Form.Control
                             type="text"
                             placeholder="Enter product quantity"
